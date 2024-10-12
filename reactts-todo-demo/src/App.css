@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.table-hover {
+  width: 100%;
+  border-collapse: collapse; 
+  background-color: #f8f9fa; 
+  font-family: 'Arial', sans-serif; 
+  color: #333; 
+}
+
+.table-hover thead {
+  background-color: #3d3d3d; 
+  color: white; 
+}
+
+.table-hover th, .table-classic td {
+  padding: 12px 15px; 
+  border: 1px solid #ddd; 
+  text-align: left; 
+}
+
+.table-hover tbody tr:nth-child(even) {
+  background-color: #f2f2f2; 
+}
+
+.table-hover tbody tr:hover {
+  background-color: #e9ecef; 
+}
+
+.table-hover th {
+  font-weight: bold; 
+  text-transform: uppercase; 
+}
+
+.table-hover td {
+  font-size: 14px; 
+}
+
+.btn-primary {
+  background-color: rgb(54, 209, 175); 
+  color: rgb(35, 33, 33); 
+  border: none; 
+  border-radius: 5px; 
+  padding: 10px 20px;
+  font-size: 16px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.btn-custom:hover {
+  background-color: rgb(54, 209, 175); 
+}
+  
+
+.btn-custom:active {
+  background-color: rgb(54, 209, 175); 
+  transform: translateY(0); 
+} 
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} 
+
+
+.table-hover tbody tr:hover {
+  background-color: #8b918e; 
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
